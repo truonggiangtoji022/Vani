@@ -11,21 +11,22 @@ header {
 }
 
 .icon1 {
-    width: 140%;
+    width: 150%;
     margin: -10px;
     margin-bottom: 10px;
 }
 
 .txt1 {
     color: #5112bb;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
 }
 
 .txt2 {
     color: #e5e0da;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
+    margin-left: -5px;
 }
 
 .col1 {
@@ -80,30 +81,27 @@ header {
 .phieuphai {
     background-color: #5818c6;
     text-align: center;
-    padding: 50px;
+    padding: 40px;
     padding-top: 55px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    color: white;
+    font-size: 15px;
+    border: none;
     /* border-radius: 20px; */
 }
 
 .txt5 {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
-    margin: 15px;
+    /* margin: 15px; */
+    margin-top: 20px;
 }
 
 .txt6 {
-    margin-left: 10px;
     color: grey;
-    margin-top: 50%;
-    font-size: 13px;
-}
-
-.txt7 {
-    color: white;
-    /* padding-top: 10px; */
-    font-size: 15px;
+    margin-top: 60%;
+    font-size: 12px;
 }
 
 .tron {
@@ -114,7 +112,7 @@ header {
     position: absolute;
     background-color: #d5d5d5;
     margin-left: -28px;
-    margin-top: 15px;
+    margin-top: 18px;
     display: block;
     background-image:
         linear-gradient(90deg, white 50%, transparent 50%);
@@ -190,20 +188,18 @@ span {
 /* Modal Content/Box */
 .modal-content {
     background-color: #fefefe;
-    margin: auto;
-    float: left;
-    top: 12%;
-    left: 5%;
-    right: 5%;
+    margin: 16% auto;
+    right: 3% !important;
+    left: 1% !important;
+    /* left: 5% !important; */
     /* 15% from the top and centered */
     border: 1px solid #888;
     text-align: center;
-    width: 50%;
-    height: 75%;
+    width: 85% !important;
+    height: 74%;
     /* display: flex;
     justify-content: center;
     align-items: center; */
-    padding: 0%;
     /* Could be more or less, depending on screen size */
 }
 
@@ -213,7 +209,7 @@ span {
     float: right;
     font-size: 50px;
     font-weight: bold;
-    margin-left: 400px;
+    margin-left: 300px;
 }
 
 .close:hover,
@@ -229,17 +225,20 @@ hr{
 
 .btnnut{
     padding: 5px;
-    border: 4px solid #f6f3f1;
+    border: 1px solid #dacec6;
     background-color: #fcfbf7;
-    border-radius: 10px;
+    border-radius: 5px;
     font-weight: bold;
-    font-size: 13px;
-    margin: 10px;
-    width: 50%;
+    font-size: 15px;
+    margin: 20px;
+    width: 80%;
     margin: 0 auto;
 }
+.txtnut{
+    font-size: 15px;
+}
 .txtga{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     padding-bottom: 0%;
     margin-bottom: 0%;
@@ -252,9 +251,7 @@ hr{
     padding-bottom: 0%;
     margin-bottom: 0%;
 }
-.txtnut{
-    font-size: 13px;
-}
+
 .model:visited{
     background-color: #eee9e3;
 }
@@ -270,7 +267,8 @@ hr{
     background-color: #faf5f2;
     border: 1px solid rgb(233, 231, 231);
 }
-element.style {
-    border-right-width: 20px;
-    margin-left: 250px;
+.change
+{
+    color: #c6bfb9 !important;
+    background-color: #eee9e3 !important;
 }
