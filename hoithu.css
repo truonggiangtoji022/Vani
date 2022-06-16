@@ -40,7 +40,7 @@ header {
 }
 
 .section {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
     background-color: #eee9e3;
 }
@@ -53,43 +53,44 @@ header {
 
 .the {
     background: #ffffff;
-    padding: 20px;
-    margin: 35px;
+    padding: 12px;
+    margin: 10px;
     border-radius: 30px;
     border: 1px solid rgb(233, 231, 231);
 }
 
 .iconlp {
     width: 150%;
-    padding-top: 8px;
+    padding-top: 5px;
+    margin-right: 55px;
 }
 
 .txtlp {
     /* font-size: 30px; */
     font-weight: bold;
-    padding-top: 5px;
-    font-size: 18px;
+    font-size: 13px;
 }
 
 .time {
     color: grey;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .txt4 {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .phieu {
     border: 1px solid rgb(233, 231, 231);
     border-radius: 20px;
+    height: 130px;
 }
 
 .phieuphai {
     background-color: #5818c6;
     text-align: center;
-    padding: 40px;
-    padding-top: 55px;
+    padding: 10px;
+    padding-top: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     color: white;
@@ -107,49 +108,51 @@ header {
 
 .txt6 {
     color: grey;
-    margin-top: 60%;
+    margin-top: 30%;
     font-size: 12px;
 }
 
 .tron {
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
-    height: 20px;
-    width: 25px;
+    height: 15px;
+    width: 15px;
     position: absolute;
     background-color: #d5d5d5;
-    margin-left: -28px;
-    margin-top: 18px;
+    margin-left: -21px;
+    margin-top: 12px;
     display: block;
     background-image:
         linear-gradient(90deg, white 50%, transparent 50%);
 }
 
 .iconcheck {
-    width: 45%;
+    width: 30%;
 }
-
+.txtsd{
+    font-size: 13px;
+}
 .btn1 {
     background-color: #eee9e3;
     color: #c8c1bb;
     border: none;
-    padding: 5px;
+    padding: 3px;
     padding-right: 25px;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     font-weight: bold;
     padding-left: 20px;
-    font-size: 14px;
-    margin-right: -5px;
+    font-size: 12px;
     margin-top: 10px;
 }
 
 .btn2 {
-    font-size: 15px;
+    font-size: 12px;
     border: none;
     font-weight: bold;
     color: #555450;
     padding: 10px;
+    margin-bottom: 5px;
 }
 
 span {
@@ -270,10 +273,10 @@ hr{
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 20px;
-    font-size: 25px;
+    padding-top: 15px;
+    font-size: 18px;
     font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
     opacity: 0.95;
     background-color: #faf5f2;
     border: 1px solid rgb(233, 231, 231);
