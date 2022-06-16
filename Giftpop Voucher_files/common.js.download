@@ -1,9 +1,0 @@
-function showMark() {
-    $('#ajaxloading').css('display', 'flex');
-}
-function faceoutMark() {
-    $('#ajaxloading').fadeOut();
-}
-function hideMark() {
-    $('#ajaxloading').hide();
-}
