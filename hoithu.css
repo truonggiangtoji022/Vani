@@ -1,0 +1,245 @@
+.logo {
+    margin-left: 20px;
+    width: 25%;
+    margin-bottom: 30px;
+}
+
+header {
+    padding: 20px;
+    background-color: #faf5f2;
+}
+
+.icon1 {
+    width: 140%;
+    margin: -10px;
+    margin-bottom: 10px;
+}
+
+.txt1 {
+    color: #5112bb;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.txt2 {
+    color: #e5e0da;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.col1 {
+    text-align: center;
+}
+
+.section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #eee9e3;
+}
+
+.nen {
+    padding: 5px;
+    background-color: #faf5f2;
+    padding-bottom: 60px;
+}
+
+.the {
+    background: #ffffff;
+    padding: 20px;
+    margin: 35px;
+    border-radius: 30px;
+    border: 1px solid rgb(233, 231, 231);
+}
+
+.iconlp {
+    width: 130%;
+}
+
+.txtlp {
+    /* font-size: 30px; */
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+.time {
+    color: grey;
+    font-size: 15px;
+}
+
+.txt4 {
+    font-size: 18px;
+}
+
+.phieu {
+    border: 1px solid rgb(233, 231, 231);
+    border-radius: 20px;
+}
+
+.phieuphai {
+    background-color: #5818c6;
+    text-align: center;
+    padding: 50px;
+    padding-top: 55px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* border-radius: 20px; */
+}
+
+.txt5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.txt6 {
+    margin-left: 10px;
+    color: grey;
+    margin-top: 30%;
+}
+.txtend{
+    color: #5818c6;
+}
+.txt7 {
+    color: white;
+    /* padding-top: 10px; */
+    font-size: 15px;
+}
+
+.tron {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: 20px;
+    width: 25px;
+    position: absolute;
+    background-color: #d5d5d5;
+    margin-left: -28px;
+    margin-top: 15px;
+    display: block;
+    background-image:
+        linear-gradient(90deg, white 50%, transparent 50%);
+}
+
+.iconcheck {
+    width: 45%;
+}
+
+.btn1 {
+    background-color: #eee9e3;
+    color: #c8c1bb;
+    border: none;
+    padding: 5px;
+    padding-right: 25px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: 14px;
+    margin-right: -5px;
+    margin-top: 10px;
+}
+
+.btn2 {
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    color: #555450;
+    padding: 10px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.menu {
+    background-color: #fefdfb;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border: 1px solid rgb(233, 231, 231);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 1000px;
+}
+
+.icon2 {
+    width: 30%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    float: left;
+    top: 16%;
+    left: 5%;
+    right: 5%;
+    /* 15% from the top and centered */
+    border: 1px solid #888;
+    text-align: center;
+    width: 100px;
+    height: 433px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 400px;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+hr{
+    width: 90%;
+    border: 1px solid;
+}
+
+.btnnut{
+    padding: 5px 60px;
+    border: 4px solid #f6f3f1;
+    background-color: #fcfbf7;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.txtga{
+    font-size: 20px;
+    font-weight: bold;
+}
+.modal:visited{
+    background-color: ;
+}
