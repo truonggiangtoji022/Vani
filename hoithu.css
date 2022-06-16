@@ -18,12 +18,13 @@ header {
 
 .txt1 {
     color: #5112bb;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: bold;
+    margin-left: -5px;
 }
 .txtht{
     color: #5112bb;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: bold;
     padding-top: 8px;
 }
@@ -208,14 +209,13 @@ span {
     align-items: center; */
     /* Could be more or less, depending on screen size */
 }
-
 /* The Close Button */
 .close {
     color: #aaa;
     float: right;
     font-size: 50px;
     font-weight: bold;
-    margin-left: 300px;
+    justify-content: end;
     border: none;
 }
 .btnclose{
