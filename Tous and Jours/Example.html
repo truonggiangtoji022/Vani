@@ -46,9 +46,7 @@
             <div class="the">
                 <div class="row">
                     <div class="col-2 col-lg-1">
-                        <img class="iconlp" src="https://scontent.fsgn2-2.fna.fbcdn.net/v/t31.18172-8/25532270_1617195325037214_2259667138584017055_o.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=bpitkUvBXOkAX-8F-8i&_nc_ht=scontent.fsgn2-2.fna&oh=00_AT_BCyTpPJjifWDAB94k3gsYYcT93EmxmT_YDro7QwyZzQ&oe=62D1FE98" alt="" style="
-    width: 60px;
-">
+                        <img class="iconlp" src="https://scontent.fsgn2-2.fna.fbcdn.net/v/t31.18172-8/25532270_1617195325037214_2259667138584017055_o.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=bpitkUvBXOkAX-8F-8i&_nc_ht=scontent.fsgn2-2.fna&oh=00_AT_BCyTpPJjifWDAB94k3gsYYcT93EmxmT_YDro7QwyZzQ&oe=62D1FE98" alt="">
                     </div>
                     <div class="col txt3">
                         <h5 class="txtlp">TOUS les JOURS</h5>
@@ -56,10 +54,9 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
+                    <div class="col" id="div1">
                         <p class="txt4">🎉 Coupon cho thành viên mới!</p>
-                        <p class="txt4">[Mã coupon] 999855118622 <br>
-                            Phiếu giảm giá này có thể đổi lấy phần bánh Mini Chiffon <br>  </p>
+                        <p id="coupon" >[Mã coupon] 999779588351 <br>Phiếu giảm giá này có thể đổi lấy phần bánh Mini Chiffon <br></p>
                     </div>
                 </div>
 
@@ -95,7 +92,13 @@
                                         </button>
                                         <p class="txtga">Mini Chiffon miễn phí</p>
                                         <p class="txtend">Hết hạn ngày 31/07/2022</p>
-                                        <div class="barcode"><img src="https://img.giftpop.vn/barcode.php?barcode=9590824628&mode=3"width="280" height="200"></div><div class="barcodeNum ">9590824628</div>                                            nhận</button>
+                                        <div class="barcode"><img id="img" width="280" height="200"></div><div id="replace" class="barcodeNum ">999779588351</div>                                     
+                                        <p class="txtnut"><span class="bold">Nút [Nhân viên xác nhận] </span> sẽ được sử
+                                            <br> dụng khi
+                                            nhân viên phải xác nhận việc <br> sử dụng coupon tại cửa hàng.
+                                        </p>
+                                        <button type="button" class="btnnut" data-dismiss="modal">Nhân viên xác
+                                            nhận</button>
                                     </div>
                                 </div>
                             </div>
@@ -227,6 +230,23 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
         crossorigin="anonymous"></script>
+    <script>
+    let text1 = "https://img.giftpop.vn/barcode.php?barcode=";
+    let text2 = "999435966954";
+    let text3 = "[Mã coupon] ";
+    let result = text1.concat(text2);
+    let result2 = text3.concat(text2);
+    document.getElementById("img").src = result;
+
+    let text = document.getElementById("replace").innerHTML; 
+    document.getElementById("replace").innerHTML 
+    = text.replace("999779588351", text2);
+
+    let Coupon = document.getElementById("coupon").innerHTML; 
+    document.getElementById("coupon").innerHTML 
+    = text.replace("999779588351",result2);
+    </script>
+    
 </body>
 
 </html>
