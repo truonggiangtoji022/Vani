@@ -96,8 +96,12 @@
                                         </button>
                                         <p class="txtga">Set Gà Rán Lotteria</p>
                                         <p class="txtend">Hết hạn ngày 31/07/2022</p>
-                                    <svg id="barcode" ></svg>
-                                    <script>JsBarcode("#barcode", "999452166658");</script> 
+                                        <svg id="barcode"></svg><div class="barcodeNum ">999452166658</div>
+                                    <script>JsBarcode("#barcode", "999452166658", {
+                                        width: 2.4,
+                                        height: 160,
+                                        displayValue: false
+                                      });</script> 
                                       <p class="txtnut"><span class="bold">Nút [Nhân viên xác nhận] </span> sẽ được sử
                                             <br> dụng khi nhân viên phải xác nhận việc <br> sử dụng coupon tại cửa hàng.
                                         </p>
